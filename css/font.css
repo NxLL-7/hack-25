@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Rajdhani";
+    src: url(/font/Rajdhani-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(/font/Orbitron-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Gothic";
+    src: url(/font/SpecialGothicExpandedOne-Regular.ttf);
+}
+
+.name {
+    font-family: "Rajdhani";
+    font-size: 28px;
+}
