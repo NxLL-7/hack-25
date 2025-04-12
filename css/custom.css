@@ -19,6 +19,10 @@ body {
   src: url(/font/SpecialGothicExpandedOne-Regular.ttf);
 }
 
+.re-align {
+  margin-top: 4em;
+}
+
 #particles-js {
   width: 100%;
   height: 100%;
@@ -36,7 +40,7 @@ body {
 }
 
 .sub-heading-title {
-  padding: 6em 0 2em 0;
+  padding: 2em 0 2em 0;
 }
 
 .vertical-padding {
@@ -329,6 +333,10 @@ section {
     padding: 3% !important;
   }
 
+  .re-align {
+    margin-top: 5em;
+  }
+
   .project-text {
     padding: 3% !important;
   }
@@ -477,9 +485,15 @@ section {
 .masthead h2,
 .sub-heading {
   text-align: center;
-  font-family: "Title";
+  font-family: "Gothic";
+  letter-spacing: 1px;
   color: white;
   font-size: 2rem;
+}
+
+.sub-heading {
+  font-family: "Orbitron";
+  letter-spacing: 2px;
 }
 
 p {
@@ -491,7 +505,14 @@ p {
 }
 
 .black {
-  color: #000 !important;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-size: 19px;
+}
+
+.text-white {
+  color: white !important;
+
 }
 
 
@@ -512,6 +533,10 @@ p {
 
 .white {
   color: #fff !important;
+}
+
+.title-height {
+  height: 120px;
 }
 
 .masthead h1,
@@ -597,7 +622,7 @@ p {
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding-top: 10rem;
+  padding-top: 18rem;
   background: url("");
   background-position: center;
   background-repeat: no-repeat;
@@ -688,10 +713,6 @@ p {
   background: white;
 }
 
-.sponsor-tier {
-  color: #;
-}
-
 .sponsor-img-container {
   padding-bottom: 8em;
 }
@@ -739,13 +760,6 @@ p {
 
 #mainNav.navbar-shrink .nav-link:hover {
   color: rgba(240, 176, 54) !important;
-}
-
-.black {
-  font-family: "Rajdhani";
-  font-weight: 600;
-  font-style: normal;
-  font-size: 17px;
 }
 
 .font-mod {
