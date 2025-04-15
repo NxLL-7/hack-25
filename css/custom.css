@@ -165,7 +165,7 @@ section {
 
 @media (min-width: 991.98px) {
   #team {
-    margin-right: 7em;
+    /* margin-right: 7em; */
   }
 }
 
@@ -323,6 +323,7 @@ section {
 
   .navbar {
     padding: 0;
+    display: block;
   }
 
   .navbar-collapse {
@@ -678,7 +679,7 @@ p {
 }
 
 .text-color-white {
-  color: white !important;
+  color: black !important;
 
 }
 
