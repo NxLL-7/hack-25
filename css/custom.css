@@ -163,12 +163,6 @@ section {
   position: relative;
 }
 
-@media (min-width: 991.98px) {
-  #team {
-    /* margin-right: 7em; */
-  }
-}
-
 @media (max-width: 1200px) {
   .front-image-box {
     margin-bottom: 7em;
@@ -222,8 +216,6 @@ section {
   padding: 0.5em;
   margin: 0;
 }
-
-.team-study {}
 
 .team-social {
   padding-bottom: 0.5em;
@@ -295,7 +287,11 @@ section {
     width: 100%;
   }
 
-  ṣ #navbar-container,
+  .black {
+    font-weight: 600;
+  }
+
+  #navbar-container,
   #navbar-top-menu {
     width: 100%;
   }
@@ -368,9 +364,6 @@ section {
     border-bottom: 1px solid white;
   }
 
-  .btn-primary {
-    margin-bottom: 50px !important;
-  }
 }
 
 .subscribe-for-updates {
@@ -509,13 +502,9 @@ p {
   font-family: "Rajdhani";
   font-style: normal;
   font-size: 19px;
-}
-
-.text-white {
-  color: white !important;
+  color: black !important;
 
 }
-
 
 .orange,
 .orange-hover {
@@ -534,10 +523,6 @@ p {
 
 .white {
   color: #fff !important;
-}
-
-.title-height {
-  height: 120px;
 }
 
 .masthead h1,
@@ -584,7 +569,7 @@ p {
   color: black;
   margin: 0 8px;
   font-family: monospace;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: none;
   letter-spacing: 0px;
   margin-top: 1.5em;
@@ -660,8 +645,6 @@ p {
   text-align: center;
   overflow-wrap: normal;
 }
-
-.table td {}
 
 .table tbody tr td {
   vertical-align: middle;
@@ -781,4 +764,8 @@ p {
 .nav-text {
   font-family: "Orbitron";
   letter-spacing: 2px;
+}
+
+.title-height {
+  padding-bottom: 10px;
 }
