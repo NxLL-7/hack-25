@@ -115,6 +115,10 @@ section {
   margin-bottom: 1em;
 }
 
+.resize {
+  padding: 0 8em;
+}
+
 .img-box {
   display: inline-block;
   width: 75%;
@@ -166,6 +170,10 @@ section {
 @media (max-width: 1200px) {
   .front-image-box {
     margin-bottom: 7em;
+  }
+
+  .resize {
+    padding: 0;
   }
 
   .first-image {
@@ -632,27 +640,28 @@ p {
   display: inline-block;
 }
 
-.schedule .table {
+/* .schedule .table {
   border-left: #1f1f1f 8px solid;
   overflow-wrap: normal;
   margin-top: 10px;
-}
+} */
 
 .schedule {
   margin-top: 20px;
 }
 
+/* 
 .table th {
   text-align: center;
   overflow-wrap: normal;
-}
+} */
 
-.table tbody tr td {
+/* .table tbody tr td {
   vertical-align: middle;
   font-weight: 900;
   font-size: 1.0rem;
   width: 180px;
-}
+} */
 
 .schedule header div {
   font-family: "Title";
