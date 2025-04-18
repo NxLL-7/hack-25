@@ -1,6 +1,13 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100;
   background: #17153a;
 }
 
@@ -20,8 +27,20 @@ body {
 }
 
 .re-align {
-  margin-top: 4em;
+  margin-top: 5.5em;
+  margin-bottom: 1em;
 }
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid white;
+}
+
+.table td,
+.table th {
+  padding: 0.6rem;
+}
+
 
 #particles-js {
   width: 100%;
@@ -40,7 +59,7 @@ body {
 }
 
 .sub-heading-title {
-  padding: 2em 0 2em 0;
+  /* padding: 2em 0 2em 0; */
 }
 
 .vertical-padding {
@@ -173,11 +192,15 @@ section {
   }
 
   .resize {
-    padding: 0;
+    padding: 0 1em;
+  }
+
+  #left-icon{
+    visibility:hidden;
   }
 
   .first-image {
-    margin-bottom: 8em;
+    margin-bottom: 6em;
   }
 }
 
@@ -273,7 +296,7 @@ section {
   visibility: visible;
 }
 
-#mlh-trust-badge {
+#left-icon {
   display: block;
   max-width: 120px !important;
   min-width: 50px !important;
@@ -288,7 +311,7 @@ section {
 /* ---- Mobile only styling ---- */
 @media (max-width: 991.98px) {
   .navbar-toggler {
-    margin-right: 4em !important;
+    /* margin-right: 4em !important; */
   }
 
 
