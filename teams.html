@@ -1,296 +1,387 @@
 <!DOCTYPE html>
+
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      name="viewport"
+    />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <title>Organiser Team</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <!-- Favicon for CreatED 2020 -->
+    <link href="img/title-icon.jpeg" rel="shortcut icon" type="image/x-icon" />
+    <link href="css/font.css" rel="stylesheet" />
+    <style>
+      .team-card {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .team-card.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <a
+    id="left-icon"
+    style="
+      display: block;
+      max-width: 100px;
+      min-width: 60px;
+      position: fixed;
+      right: 50px;
+      top: 0;
+      width: 10%;
+      z-index: 10000;
+    "
+    ><img alt="Geeta Hackathon'25" src="/img/banner.png" style="width: 100%"
+  /></a>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container" id="navbar-container">
+        <div id="navbar-top-menu">
+          <div class="d-flex align-items-center justify-content-between">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
+              <div class="title-icon"></div>
+            </a>
+            <button
+              aria-controls="navbarResponsive"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler nexa"
+              data-target="#navbarResponsive"
+              data-toggle="collapse"
+              type="button"
+            >
+              Menu
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto" id="navbar-buttons">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger nav-text" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll-trigger nav-text"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf3kqtwIvkVi6ht7vTFFwyzfbhM9HmvCrpNJ7nZL2I_NQ1JfQ/viewform"
+                target="_blank"
+                >Apply</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger nav-text" href="faqs.html"
+                >FAQs</a
+              >
+            </li>
+            <li class="nav-item" id="team">
+              <a class="nav-link js-scroll-trigger nav-text" href="teams.html"
+                >Team</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="particles-js"></div>
+    <section class="text-center">
+      <section>
+        <h1
+          class="sub-heading diagonal-text orange"
+          style="padding: 4em 0 2em 0; font-size: 42px; font-family: Gothic"
+        >
+          Meet the Team
+        </h1>
+      </section>
+      <section
+        class="diagonal-section white-bg"
+        style="opacity: 0.95 !important"
+      >
+        <div class="mx-auto diagonal-section-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Nitish.jpg"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">Nitish Chaudhary</h3>
+                    <h5 class="nexa blue">Mentor</h5>
+                    <h6 class="team-study nexa white">3rd year CSE</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/nitish315/"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Sahil.png"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">Sahil Mor</h3>
+                    <h5 class="nexa blue">Mentor</h5>
+                    <h6 class="team-study nexa white">3rd year CSE</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/sahilmor/"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Harsh.PNG"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">Harsh Kumar</h3>
+                    <h5 class="nexa blue">Mentor</h5>
+                    <h6 class="team-study nexa white">3rd Year CSE</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/harshkumar7509?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=ios_app"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Garima.jpeg"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">Garima</h3>
+                    <h5 class="nexa blue">Stage Head</h5>
+                    <h6 class="team-study nexa white">3rd year BCA</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/garima-malik-5b2842291/"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Shravya.jpeg"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">Shravya Atrey</h3>
+                    <h5 class="nexa blue">Secretary</h5>
+                    <h6 class="team-study nexa white">2nd year CSE</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/shravyatrey315/"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Aditi2.jfif"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">Aditi Byahut</h3>
+                    <h5 class="nexa blue">Participation Head</h5>
+                    <h6 class="team-study nexa white">3rd year CSE</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/aditi71/"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Shreansh.jpeg"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">Shreyansh Singh</h3>
+                    <h5 class="nexa blue">Coordinator</h5>
+                    <h6 class="team-study nexa white">3rd Year BCA</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/shreyansh-singh-b31274258/"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="team-card">
+                  <div class="team-image">
+                    <img
+                      class="team-image img-fluid"
+                      src="img/team/Sid2.jpeg"
+                    />
+                  </div>
+                  <div class="team-textbox">
+                    <h3 class="team-name name orange">
+                      Siddhartha Chakrabarty
+                    </h3>
+                    <h5 class="nexa blue">Web Developer</h5>
+                    <h6 class="team-study nexa white">1st Year CSE</h6>
+                    <div class="team-social accessible">
+                      <a
+                        class="social-button orange-hover"
+                        href="https://www.linkedin.com/in/siddhartha-chakrabarty-b84774322/"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <!-- Insert next team member here -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="diagonal-section black-bg"
+        style="height: 4em; opacity: 1"
+      ></section>
+      <section class="footer-section black-bg">
+        <div style="padding-top: 0">
+          <div class="small text-center white">
+            <div class="social d-flex justify-content-center"></div>
+            <div class="white mb-4 font-mod">
+              Copyright © Geeta University 2025
+            </div>
+            <a
+              class="mx-2 orange-hover"
+              href="https://www.facebook.com/geetauniversity"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              class="mx-2 orange-hover"
+              href="https://www.instagram.com/geetauniversitypanipat/"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="mx-2 orange-hover"
+              href="https://www.linkedin.com/school/geeta-university-official/"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.js"></script>
+    <!-- Custom javascript -->
+    <script src="js/custom.js"></script>
+    <!-- Particle library -->
+    <script src="particles/particles.js"></script>
+    <script src="particles/app.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cards = document.querySelectorAll(".team-card");
 
-<head>
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          {
+            threshold: 0.1,
+          }
+        );
 
-	<meta charset="utf-8">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<title>Organiser Team</title>
-
-	<!-- Bootstrap core CSS -->
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Custom fonts for this template -->
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-	<link
-		href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-		rel="stylesheet">
-
-	<!-- Custom styles for this template -->
-	<link href="css/grayscale.min.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
-	<!-- Favicon for CreatED 2020 -->
-	<link rel="shortcut icon" type="image/x-icon" href="img/title-icon.jpeg">
-	<link rel="stylesheet" href="css/font.css">
-
-</head>
-
-<a id="mlh-trust-badge"
-	style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"><img
-		src="/img/banner.png" alt="Geeta Hackathon'25" style="width:100%"></a>
-
-
-<body id="page-top">
-
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-		<div id="navbar-container" class="container">
-			<div id="navbar-top-menu">
-				<div class="d-flex align-items-center justify-content-between">
-					<a class="navbar-brand js-scroll-trigger" href="index.html">
-						<div class="title-icon"></div>
-					</a>
-					<button class="navbar-toggler nexa" type="button" data-toggle="collapse"
-						data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-						aria-label="Toggle navigation">
-						Menu
-						<i class="fas fa-bars"></i>
-					</button>
-				</div>
-			</div>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul id="navbar-buttons" class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger nav-text" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger nav-text"
-							href="https://docs.google.com/forms/d/e/1FAIpQLSf3kqtwIvkVi6ht7vTFFwyzfbhM9HmvCrpNJ7nZL2I_NQ1JfQ/viewform"
-							target="_blank">Apply</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger nav-text" href="faqs.html">FAQs</a>
-					</li>
-					<li class="nav-item" id="team">
-						<a class="nav-link js-scroll-trigger nav-text" href="teams.html">Team</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div id="particles-js"></div>
-
-	<section class="text-center">
-
-		<section>
-
-			<h1 class="sub-heading diagonal-text orange"
-				style="padding: 4em 0 2em 0;font-size: 42px;font-family: Gothic;">Meet
-				the
-				Team</h1>
-
-		</section>
-
-		<section class="diagonal-section white-bg" style="opacity: 0.95!important;">
-
-			<div class="mx-auto diagonal-section-content">
-				<div class="container">
-
-					<div class="row">
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Nitish.jpg">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Nitish Chaudhary</h3>
-									<h5 class="nexa blue">Mentor</h5>
-									<h6 class="team-study nexa white">3rd year CSE</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/nitish315/">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Sahil.png">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Sahil Mor</h3>
-									<h5 class="nexa blue">Mentor</h5>
-									<h6 class="team-study nexa white">3rd year CSE</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/sahilmor/">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Harsh.PNG">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Harsh Kumar</h3>
-									<h5 class="nexa blue">Mentor</h5>
-									<h6 class="team-study nexa white">3rd Year CSE</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/harshkumar7509?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Garima.jpeg">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Garima</h3>
-									<h5 class="nexa blue">Stage Head</h5>
-									<h6 class="team-study nexa white">3rd year BCA</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/garima-malik-5b2842291/">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Shravya.jpeg">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Shravya Atrey</h3>
-									<h5 class="nexa blue">Secretary</h5>
-									<h6 class="team-study nexa white">2nd year CSE</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/shravyatrey315/">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Aditi2.jfif">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Aditi Byahut</h3>
-									<h5 class="nexa blue">Participation Head</h5>
-									<h6 class="team-study nexa white">3rd year CSE</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/aditi71/">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Shreansh.jpeg">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Shreyansh Singh</h3>
-									<h5 class="nexa blue">Coordinator</h5>
-									<h6 class="team-study nexa white">3rd Year BCA</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/shreyansh-singh-b31274258/">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="team-card">
-								<div class="team-image">
-									<img class="team-image img-fluid" src="img/team/Sid2.jpeg">
-								</div>
-								<div class="team-textbox">
-									<h3 class="team-name name orange">Siddhartha Chakrabarty</h3>
-									<h5 class="nexa blue">Web Developer</h5>
-									<h6 class="team-study nexa white">1st Year CSE</h6>
-									<div class="team-social accessible">
-										<a class="social-button orange-hover"
-											href="https://www.linkedin.com/in/siddhartha-chakrabarty-b84774322/">
-											<i class="fab fa-linkedin"></i>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4">
-						<!-- Insert next team member here -->
-					</div>
-				</div>
-			</div>
-			</div>
-
-		</section>
-
-		<section class="diagonal-section black-bg" style="height: 4em; opacity: 1;"></section>
-
-		<section class="footer-section black-bg">
-
-			<div style="padding-top: 0">
-				<div class="small text-center white">
-					<div class="social d-flex justify-content-center"></div>
-					<div class="white mb-4 font-mod ">
-						Copyright &copy; Geeta University 2025
-					</div>
-					<a href="https://www.facebook.com/geetauniversity" class="mx-2 orange-hover">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-					<a href="https://www.instagram.com/geetauniversitypanipat/" class="mx-2 orange-hover">
-						<i class="fab fa-instagram"></i>
-					</a>
-					<a href="https://www.linkedin.com/school/geeta-university-official/" class="mx-2 orange-hover">
-						<i class="fab fa-linkedin"></i>
-					</a>
-				</div>
-			</div>
-
-
-		</section>
-
-	</section>
-
-	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-	<!-- Plugin JavaScript -->
-	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Custom scripts for this template -->
-	<script src="js/grayscale.js"></script>
-
-	<!-- Custom javascript -->
-	<script src="js/custom.js"></script>
-
-	<!-- Particle library -->
-	<script src="particles/particles.js"></script>
-	<script src="particles/app.js"></script>
-
-</body>
-
+        cards.forEach((card) => {
+          observer.observe(card);
+        });
+      });
+    </script>
+  </body>
 </html>
